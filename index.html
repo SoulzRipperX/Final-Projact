@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- เชื่อมต่อกับ style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>私と友達になってください</h1>
+    <div id="cover">
+        <img src="Cover/lovely.gif" alt="ปกมังงะ">
+        <button class="btn start-btn" onclick="startReading()" aria-label="เริ่มอ่าน">เริ่มอ่าน</button> 
+        <div class="extra-content" id="extra-content">
+            <h2>ไม่มีใครเอาชนะข้าได้</h2>
+            <p>เหนือฟ้าใต้หล้าข้าประเสริฐที่สุด</p>
+        </div>
+    </div>
+
+    <div id="reader" style="display: none;">
+        <img id="manga-page" src="images/page1.png" alt="หน้ามังงะ">
+        <div class="navigation">
+            <button class="btn back-btn" onclick="previousPage()" aria-label="ย้อนกลับ">ย้อนกลับ</button>
+            <button class="btn next-btn" onclick="nextPage()" aria-label="หน้าถัดไป">หน้าถัดไป</button>
+        </div>
+    </div>
+
+    <!-- เชื่อมต่อกับ script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
