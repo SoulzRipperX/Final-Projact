@@ -68,11 +68,10 @@ h1 {
 
 .extra-content {
     padding: 20px;
-    background-color: #515151;
     font-size: 20px;
     color: rgb(255, 255, 255);
     margin-top: 20px; 
-    width: 2000px; 
+    width: auto; 
     text-align: center; 
     position: relative; 
     z-index: 1; 
