@@ -69,12 +69,13 @@ h1 {
 
 .navigation {
     display: flex;
-    justify-content: center; /* จัดให้อยู่ตรงกลาง */
-    gap: 20px; /* ระยะห่างระหว่างปุ่ม */
+    justify-content: space-between; 
+    align-items: center; 
     margin-top: 20px; 
     margin-bottom: 40px; 
     width: 100%; 
     max-width: 500px; 
+    gap: 20px; 
 }
 
 .back-btn {
@@ -92,7 +93,7 @@ h1 {
 .next-btn {
     padding: 20px 40px; 
     font-size: 20px; 
-    background-color: #2196F3; /* เปลี่ยนสีของปุ่มถัดไปให้ต่างจากปุ่มย้อนกลับ */
+    background-color: #2196F3; 
     color: rgb(255, 255, 255); 
     border: none; 
     border-radius: 5px;
