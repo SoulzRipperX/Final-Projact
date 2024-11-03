@@ -68,10 +68,37 @@ h1 {
 }
 
 .navigation {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    gap: 20px; /* ระยะห่างระหว่างปุ่ม */
     margin-top: 20px; 
     margin-bottom: 40px; 
+    width: 100%; 
+    max-width: 500px; 
+}
+
+.back-btn {
+    padding: 20px 40px; 
+    font-size: 20px; 
+    background-color: #4CAF50; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 5px;
+    transition: opacity 0.5s; 
+    opacity: 1;  
+    text-align: center;
+}
+
+.next-btn {
+    padding: 20px 40px; 
+    font-size: 20px; 
+    background-color: #2196F3; /* เปลี่ยนสีของปุ่มถัดไปให้ต่างจากปุ่มย้อนกลับ */
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 5px;
+    transition: opacity 0.5s; 
+    opacity: 1;  
+    text-align: center;
 }
 
 .extra-content {
@@ -85,16 +112,4 @@ h1 {
     position: relative; 
     z-index: 1; 
     overflow-x: hidden; 
-}
-
-.next-btn, .back-btn {
-    padding: 20px 40px; 
-    font-size: 20px; 
-    background-color: #4CAF50; 
-    color: rgb(255, 255, 255); 
-    border: none; 
-    border-radius: 5px;
-    margin: 10px; 
-    transition: opacity 0.5s; 
-    opacity: 1;  
 }
